@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "completed_forward_calls": 48,
+  "summary_rows": 12,
+  "prediction_npz_files": 144,
+  "gt_instances_per_condition": 481,
+  "lidar_under_image_or_calibration_intervention_labels_identical": true,
+  "lidar_box_allclose_atol": 0.0001,
+  "lidar_score_allclose_atol": 1e-06,
+  "max_lidar_box_component_abs_diff": 5.3763389587402344e-05,
+  "max_lidar_score_abs_diff": 3.8743019104003906e-07,
+  "simple_fusion_changes_only_scores": true,
+  "all_predictions_finite": true,
+  "all_scores_in_unit_interval": true,
+  "lidar_retention_counts_correct": true,
+  "review_notes": [
+    "Capture clones boxes/labels/scores before convention conversion; original return preserved.",
+    "Calibrated E and K@E and metadata updated together; original GT untouched.",
+    "All seven fusion memory tensors and detector sequence state reset per frame/condition.",
+    "No exact bitwise reproducibility claim for GPU sparse operators."
+  ]
+}

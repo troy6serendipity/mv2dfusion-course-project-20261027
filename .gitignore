@@ -1,0 +1,13 @@
+.runtime/
+upstream/
+data/
+weights/
+demo_outputs/
+experiment_outputs/
+config/local.env.sh
+__pycache__/
+*.py[cod]
+*.part
+*.log
+.DS_Store
+Thumbs.db

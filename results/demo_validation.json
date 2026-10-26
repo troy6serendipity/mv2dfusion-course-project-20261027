@@ -1,0 +1,65 @@
+{
+  "status": "PRETRAINED_REAL_SAMPLE_INFERENCE",
+  "model": "MV2DFusion R50",
+  "dataset": "nuScenes v1.0-mini",
+  "checkpoint_sha256": "0b78315efcd6ab9a0b6f6a76467d01e2381f3c6a9efb3b4a5879a92fe4a867b0",
+  "missing_learned_parameters": [],
+  "real_data": true,
+  "paper_benchmark_reproduced": false,
+  "AIS_used": false,
+  "torch": "1.13.1+cu117",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "frames": [
+    {
+      "index": 0,
+      "token": "3e8750f331d7499e9b5123e9eb70f2e2",
+      "predicted_boxes": 300,
+      "boxes_above_display_threshold": 42,
+      "display_threshold": 0.3,
+      "inference_seconds": 3.899549037,
+      "peak_allocated_MiB": 6556.5791015625
+    }
+  ],
+  "compatibility": "Torch1.13.1/cu117, mmcv1.7.0, PyTorch ordinal grouping",
+  "entrypoint": "bash scripts/run_demo.sh --frames 1",
+  "exit_code": 0,
+  "validation_date": "2026-10-27",
+  "checkpoint_missing_keys": [],
+  "checkpoint_unexpected_keys": [],
+  "checkpoint_state_dict_metadata_preserved": true,
+  "outputs_local_only": [
+    "frame_000_cameras.png",
+    "frame_000_bev.png",
+    "frame_000_pointcloud3d.png",
+    "frame_000_predictions.npz",
+    "inference_report.json"
+  ],
+  "outputs_gitignored": true,
+  "fresh_environment_rebuild_tested": false,
+  "syntax_checks": {
+    "bash_n": [
+      "scripts/clone_upstream.sh",
+      "scripts/env.sh",
+      "scripts/prepare_data.sh",
+      "scripts/run_benchmark.sh",
+      "scripts/run_demo.sh",
+      "scripts/setup_wsl.sh"
+    ],
+    "python_py_compile": [
+      "compat/ingroup_indices.py",
+      "experiments/course_benchmark.py",
+      "scripts/check_runtime.py",
+      "scripts/download_data.py",
+      "scripts/download_weights.py",
+      "scripts/infer_pretrained.py"
+    ],
+    "result": "PASS"
+  },
+  "reuse_checks": {
+    "data": "existing complete official Mini reused",
+    "checkpoint": "existing file size and local SHA256 verified",
+    "temporal_indexes": "existing files reused",
+    "environment": "existing Python runtime checked; no packages installed or upgraded",
+    "gpu_tensor_operation": "PASS"
+  }
+}

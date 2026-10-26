@@ -1,0 +1,14 @@
+diff --git a/projects/mmdet3d_plugin/datasets/__init__.py b/projects/mmdet3d_plugin/datasets/__init__.py
+index f5bead4..275599f 100644
+--- a/projects/mmdet3d_plugin/datasets/__init__.py
++++ b/projects/mmdet3d_plugin/datasets/__init__.py
+@@ -1,6 +1,8 @@
+ from .nuscenes_dataset import CustomNuScenesDataset
+ from .builder import custom_build_dataset
+-from .argoverse2_dataset_t import Argoverse2DatasetT
++import os
++if os.environ.get("MV2DFUSION_NUSCENES_ONLY") != "1":
++    from .argoverse2_dataset_t import Argoverse2DatasetT
+
+ __all__ = [
+     'CustomNuScenesDataset'

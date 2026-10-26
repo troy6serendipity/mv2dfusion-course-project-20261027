@@ -1,0 +1,37 @@
+{
+  "score_threshold": 0.3,
+  "center_distance_threshold_m": 2.0,
+  "matching": "same-class BEV center distance, Hungarian maximum cardinality then minimum distance using 1e6 dummy penalty",
+  "gt_filter": "use_valid_flag=False => num_lidar_pts > 0; official class ego-range applied to GT and predictions",
+  "metrics": "custom micro P/R/F1 and matched center error; NOT official mAP or NDS",
+  "simple_fusion": "same-class resized-image projection IoU >= 0.1; matched sqrt(sL*sI), visible unmatched 0.5*sL, invisible unchanged",
+  "image_detection_support_min_score": 0.1,
+  "image_zero": "all six normalized image inputs filled with zero (mean-pixel fill), not raw black images",
+  "lidar_keep50": "retain floor(N/2) input points with fixed per-frame seed; preserve retained order",
+  "calib_yaw2deg": "extrinsics right-multiplied by +2 degree LiDAR-frame yaw; recompute K@E and update metadata",
+  "temporal": "reset all model temporal state for every frame and condition",
+  "shared_checkpoint": true,
+  "shared_expert_weights": true,
+  "timing": "shared instrumented full forward for all captured methods; not separate baseline end-to-end latency",
+  "peak_memory": "PyTorch peak allocated; not all device/third-party allocations",
+  "sample_indices": [
+    0,
+    7,
+    14,
+    21,
+    28,
+    35,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80
+  ],
+  "conditions": [
+    "clean",
+    "image_zero",
+    "lidar_keep50",
+    "calib_yaw2deg"
+  ]
+}

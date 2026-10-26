@@ -1,0 +1,169 @@
+[
+  {
+    "index": 0,
+    "token": "3e8750f331d7499e9b5123e9eb70f2e2",
+    "scene_token": "fcbccedd61424f1b85dcbf8f897f9754",
+    "timestamp": 1533151603547590,
+    "frame_idx": 0,
+    "gt_after_lidar_hit_and_range_filter": 17,
+    "gt_by_class": {
+      "pedestrian": 14,
+      "car": 3
+    }
+  },
+  {
+    "index": 7,
+    "token": "c59e60042a8643e899008da2e446acca",
+    "scene_token": "fcbccedd61424f1b85dcbf8f897f9754",
+    "timestamp": 1533151607048933,
+    "frame_idx": 7,
+    "gt_after_lidar_hit_and_range_filter": 41,
+    "gt_by_class": {
+      "pedestrian": 30,
+      "traffic_cone": 1,
+      "car": 10
+    }
+  },
+  {
+    "index": 14,
+    "token": "f753d3f87e5b40af87ff2cbf7c8e7082",
+    "scene_token": "fcbccedd61424f1b85dcbf8f897f9754",
+    "timestamp": 1533151610446899,
+    "frame_idx": 14,
+    "gt_after_lidar_hit_and_range_filter": 37,
+    "gt_by_class": {
+      "pedestrian": 22,
+      "car": 14,
+      "traffic_cone": 1
+    }
+  },
+  {
+    "index": 21,
+    "token": "d0ecf474e0e64950aa265cd44b9c9d75",
+    "scene_token": "fcbccedd61424f1b85dcbf8f897f9754",
+    "timestamp": 1533151613948222,
+    "frame_idx": 21,
+    "gt_after_lidar_hit_and_range_filter": 36,
+    "gt_by_class": {
+      "pedestrian": 18,
+      "car": 17,
+      "traffic_cone": 1
+    }
+  },
+  {
+    "index": 28,
+    "token": "4cf5d6c3f6ab42aab23f67b5a9782d1a",
+    "scene_token": "fcbccedd61424f1b85dcbf8f897f9754",
+    "timestamp": 1533151617397050,
+    "frame_idx": 28,
+    "gt_after_lidar_hit_and_range_filter": 42,
+    "gt_by_class": {
+      "car": 28,
+      "pedestrian": 12,
+      "motorcycle": 1,
+      "truck": 1
+    }
+  },
+  {
+    "index": 35,
+    "token": "a771effa2a2648d78096c3e92b95b129",
+    "scene_token": "fcbccedd61424f1b85dcbf8f897f9754",
+    "timestamp": 1533151621047706,
+    "frame_idx": 35,
+    "gt_after_lidar_hit_and_range_filter": 37,
+    "gt_by_class": {
+      "car": 28,
+      "pedestrian": 3,
+      "motorcycle": 1,
+      "bicycle": 2,
+      "traffic_cone": 2,
+      "truck": 1
+    }
+  },
+  {
+    "index": 40,
+    "token": "b5989651183643369174912bc5641d3b",
+    "scene_token": "325cef682f064c55a255f2625c533b75",
+    "timestamp": 1538984233547259,
+    "frame_idx": 0,
+    "gt_after_lidar_hit_and_range_filter": 39,
+    "gt_by_class": {
+      "car": 15,
+      "pedestrian": 20,
+      "bicycle": 2,
+      "truck": 1,
+      "bus": 1
+    }
+  },
+  {
+    "index": 48,
+    "token": "5b7cb170eee6468aa1fdbd3abcf63c5a",
+    "scene_token": "325cef682f064c55a255f2625c533b75",
+    "timestamp": 1538984237446737,
+    "frame_idx": 8,
+    "gt_after_lidar_hit_and_range_filter": 61,
+    "gt_by_class": {
+      "car": 28,
+      "pedestrian": 22,
+      "motorcycle": 7,
+      "bicycle": 1,
+      "truck": 2,
+      "bus": 1
+    }
+  },
+  {
+    "index": 56,
+    "token": "a19a80c905674faab7203a3a4e0f5246",
+    "scene_token": "325cef682f064c55a255f2625c533b75",
+    "timestamp": 1538984241447959,
+    "frame_idx": 16,
+    "gt_after_lidar_hit_and_range_filter": 55,
+    "gt_by_class": {
+      "car": 28,
+      "pedestrian": 16,
+      "motorcycle": 8,
+      "truck": 2,
+      "bus": 1
+    }
+  },
+  {
+    "index": 64,
+    "token": "55c258972acb4300a3a6077a531ab050",
+    "scene_token": "325cef682f064c55a255f2625c533b75",
+    "timestamp": 1538984245447134,
+    "frame_idx": 24,
+    "gt_after_lidar_hit_and_range_filter": 45,
+    "gt_by_class": {
+      "car": 33,
+      "motorcycle": 7,
+      "truck": 3,
+      "pedestrian": 1,
+      "bus": 1
+    }
+  },
+  {
+    "index": 72,
+    "token": "8e352d4a6c6f40c8ad4f10a3d2c3f158",
+    "scene_token": "325cef682f064c55a255f2625c533b75",
+    "timestamp": 1538984249448168,
+    "frame_idx": 32,
+    "gt_after_lidar_hit_and_range_filter": 37,
+    "gt_by_class": {
+      "car": 34,
+      "truck": 2,
+      "bus": 1
+    }
+  },
+  {
+    "index": 80,
+    "token": "b4ff30109dd14c89b24789dc5713cf8c",
+    "scene_token": "325cef682f064c55a255f2625c533b75",
+    "timestamp": 1538984253447765,
+    "frame_idx": 40,
+    "gt_after_lidar_hit_and_range_filter": 34,
+    "gt_by_class": {
+      "car": 33,
+      "truck": 1
+    }
+  }
+]
