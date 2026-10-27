@@ -1,4 +1,4 @@
-# MV2DFusion 课程复现代码包
+# MV2DFusion 复现代码包
 
 基于作者公开的 MV2DFusion-R50 完整预训练模型，在 Windows + WSL2 上完成真实 nuScenes Mini 推理、3D 检测可视化及固定小样本鲁棒性比较。代码包提供可移植运行入口、兼容补丁、实验协议与实测汇总；未训练或微调模型。
 
